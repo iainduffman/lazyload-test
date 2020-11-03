@@ -5,7 +5,7 @@
         <h1 class="ml11">
   <span class="text-wrapper">
     <span class="line line1"></span>
-    <span class="letters">Hello Goodbye</span>
+    <span class="letters">Hello Goodbye Sonny Jim</span>
   </span>
 </h1>
       </div>
@@ -70,7 +70,13 @@
   display: inline-block;
   line-height: 1em;
 }
+
+.blast-root .blast:nth-child(1) {color: pink;}
+.blast-root .blast:nth-child(2) {color: red;}
+.blast-root .blast:nth-child(4) {color: green;}
+
 </style>
+
 <script>
 import { mapState } from "vuex";
 export default {
